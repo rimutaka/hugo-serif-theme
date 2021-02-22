@@ -1,10 +1,11 @@
 ---
-title: "Business Sales"
-date: 2018-11-28T15:15:26+10:00
+title: "For developers"
 featured: true
 draft: false
-weight: 3
+weight: 1
 ---
+
+# For developers
 
 Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
 vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo

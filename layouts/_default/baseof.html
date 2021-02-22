@@ -7,7 +7,7 @@
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ block "meta_tags" . }}{{end}}
-  <link rel="icon" type="image/png" href="{{ "favicon-32x32.svg" | relURL }}">
+  <link rel="icon" type="image/png" href="/favicon-32x32.svg">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- CSS-->
@@ -30,23 +30,17 @@
     {{ block "main" . }}
     {{ end }}
   </div>
+  
 
-  {{ partial "footer.html" . }}
   {{ partial "sub-footer.html" . }}
 
   {{ $scripts := resources.Get "js/scripts.js" }}
-
-  {{ block "footer_js" . }}
-  {{ end }}
 
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
   {{ else }}
   <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
-
-  {{ partial "google-tag-manager.html" . }}
-  {{ partial "google-analytics.html" . }}
 </body>
 
 </html>

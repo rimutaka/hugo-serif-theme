@@ -1,12 +1,10 @@
 baseURL = "www.example.com"
 languageCode = "en-us"
 title = "Hugo Serif Theme"
+log = true
+logFile = "~/projects/stm/about/hugo-serif-theme/log.txt"
 
 [params]
-  # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
-  google_analytics_id = ""
-  google_tag_manager_id = ""
-
   [params.homepage]
     show_call_box = true
     hide_view_all_services = false  # set to true to hide the View All Services button
@@ -37,22 +35,17 @@ title = "Hugo Serif Theme"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Services"
-    url = "/services/"
+    name = "Employers"
+    url = "/employers/"
       weight = 1
 
   [[menu.main]]
-      name = "Team"
-      url = "/team/"
+      name = "Developers"
+      url = "/developers/"
       weight = 2
 
   # Footer Menu
-  [[menu.footer]]
-    name = "Home"
+  [[menu.main]]
+    name = "About"
     url = "/"
-      weight = 1
-
-  [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
-      weight = 2
+      weight = 3
