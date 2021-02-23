@@ -1,65 +1,61 @@
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "main" }}
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6">
-        {{ .Content }}
-      </div>
-      <div class="col-12 col-md-5 col-lg-6 position-relative">
-        <img alt="{{ .Title }}" class="intro-image" src="{{ .Params.intro_image | relURL }}" />
-      </div>
+<div class="container-md mt-5">
+  <div class="row justify-content-start mb-5">
+    <div class="col-12 col-md-7 col-lg-6">
+      {{ .Content }}
     </div>
-
-    {{ partial "call-to-action.html" (dict "site" .Site "context" .) }}
-
+    <div class="col-12 col-md-5 col-lg-6 position-relative">
+      <img alt="{{ .Title }}" class="w-100" src="{{ .Params.intro_image | relURL }}" />
+    </div>
   </div>
+
+  {{ partial "call-to-action.html" (dict "site" .Site "context" .) }}
+
 </div>
 
 {{ $features := path.Join "/" .File.Dir }}
 {{ $headless := .Site.GetPage $features }}
 {{ $reusablePages := where ($headless.Resources.Match "**.md") "Params.weight" "in" (slice 1 2 3) }}
 
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-5 pb-md-5">
-    <div class="row justify-content-center">
-      {{ range first 3 (sort $reusablePages) }}
-      <div class="col-12 col-lg-4 mb-2">
-        <div class="feature" style="background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.9)), url('{{.Params.icon}}');">
+<div class="container-md mt-5">
+  <div class="row justify-content-center">
+    {{ range first 3 (sort $reusablePages) }}
+    <div class="col-12 col-lg-4 mb-4">
+      <div class="card h-100">
+        <div class="card-body" style="background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.9)), no-repeat center/50% url('{{.Params.icon}}');">
           {{ .Content }}
         </div>
       </div>
-      {{end}}
     </div>
+    {{end}}
+  </div>
 
-    {{ $reusablePages := where ($headless.Resources.Match "**.md") "Params.weight" "in" (slice 4 5) }}
-    <div class="row justify-content-center">
-      {{ range last 2 (sort $reusablePages) }}
-      <div class="col-12 col-md-6 mb-2">
-        <div class="feature" style="background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.9)), url('{{.Params.icon}}');">
+  {{ $reusablePages := where ($headless.Resources.Match "**.md") "Params.weight" "in" (slice 4 5) }}
+  <div class="row justify-content-center">
+    {{ range last 2 (sort $reusablePages) }}
+    <div class="col-12 col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body" style="background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.9)), no-repeat center/50% url('{{.Params.icon}}');">
           {{ .Content }}
         </div>
       </div>
-      {{end}}
     </div>
+    {{end}}
   </div>
 </div>
 
 {{ $reusablePages := where ($headless.Resources.Match "**.md") "Params.weight" "=" 6 }}
-<div class="strip">
-  <div class="container pt-6 pb-6 pt-md-5 pb-md-5">
-    <div class="row justify-content-center">
-      {{ range $reusablePages }}
-      <div class="col-12 mb-2">
-        {{ .Content }}
-      </div>
-      {{end}}
+<div class="container mb-5">
+  <div class="row justify-content-center mb-4">
+    {{ range $reusablePages }}
+    <div class="col-12">
+      {{ .Content }}
     </div>
-    {{ partial "call-to-action.html" (dict "site" .Site "context" .) }}
+    {{end}}
   </div>
+  {{ partial "call-to-action.html" (dict "site" .Site "context" .) }}
 </div>
-
-
 
 {{ end }}
