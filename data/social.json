@@ -8,5 +8,10 @@
         "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/maxvoskob/",
         "image": "images/social/linkedin.svg"
+    },
+    {
+        "name": "Discord",
+        "link": "https://discord.com/...",
+        "image": "images/social/discord.svg"
     }
 ]
