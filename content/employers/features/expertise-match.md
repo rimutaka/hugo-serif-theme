@@ -1,12 +1,12 @@
 ---
-weight: 3
-icon: "features/non-judgemental.svg"
+weight: 2
+icon: "features/expertise-match.svg"
 ---
 
-## Style match
+## Expertise match
 
-Define soft metrics important to you and your team:
+Define the required level of expertise using proxy metrics:
 
-* commit size and messages
-* code commenting
-* documentation
+* Years of experience
+* Project size
+* Lines of code

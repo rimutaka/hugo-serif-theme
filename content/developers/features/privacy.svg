@@ -10,16 +10,16 @@
    aria-hidden="true"
    focusable="false"
    data-prefix="fas"
-   data-icon="balance-scale"
-   class="svg-inline--fa fa-balance-scale fa-w-20"
+   data-icon="eye-slash"
+   class="svg-inline--fa fa-eye-slash fa-w-20"
    role="img"
    viewBox="0 0 640 512"
    version="1.1"
-   id="svg24"
-   sodipodi:docname="non-judgemental.svg"
+   id="svg34"
+   sodipodi:docname="privacy.svg"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
   <metadata
-     id="metadata30">
+     id="metadata40">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -30,7 +30,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs28" />
+     id="defs38" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -42,7 +42,7 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
-     id="namedview26"
+     id="namedview36"
      showgrid="false"
      inkscape:zoom="1.96875"
      inkscape:cx="320"
@@ -50,10 +50,10 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg24" />
+     inkscape:current-layer="svg34" />
   <path
      fill="currentColor"
-     d="M256 336h-.02c0-16.18 1.34-8.73-85.05-181.51-17.65-35.29-68.19-35.36-85.87 0C-2.06 328.75.02 320.33.02 336H0c0 44.18 57.31 80 128 80s128-35.82 128-80zM128 176l72 144H56l72-144zm511.98 160c0-16.18 1.34-8.73-85.05-181.51-17.65-35.29-68.19-35.36-85.87 0-87.12 174.26-85.04 165.84-85.04 181.51H384c0 44.18 57.31 80 128 80s128-35.82 128-80h-.02zM440 320l72-144 72 144H440zm88 128H352V153.25c23.51-10.29 41.16-31.48 46.39-57.25H528c8.84 0 16-7.16 16-16V48c0-8.84-7.16-16-16-16H383.64C369.04 12.68 346.09 0 320 0s-49.04 12.68-63.64 32H112c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h129.61c5.23 25.76 22.87 46.96 46.39 57.25V448H112c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h416c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z"
-     id="path22"
+     d="M320 400c-75.85 0-137.25-58.71-142.9-133.11L72.2 185.82c-13.79 17.3-26.48 35.59-36.72 55.59a32.35 32.35 0 0 0 0 29.19C89.71 376.41 197.07 448 320 448c26.91 0 52.87-4 77.89-10.46L346 397.39a144.13 144.13 0 0 1-26 2.61zm313.82 58.1l-110.55-85.44a331.25 331.25 0 0 0 81.25-102.07 32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64a308.15 308.15 0 0 0-147.32 37.7L45.46 3.37A16 16 0 0 0 23 6.18L3.37 31.45A16 16 0 0 0 6.18 53.9l588.36 454.73a16 16 0 0 0 22.46-2.81l19.64-25.27a16 16 0 0 0-2.82-22.45zm-183.72-142l-39.3-30.38A94.75 94.75 0 0 0 416 256a94.76 94.76 0 0 0-121.31-92.21A47.65 47.65 0 0 1 304 192a46.64 46.64 0 0 1-1.54 10l-73.61-56.89A142.31 142.31 0 0 1 320 112a143.92 143.92 0 0 1 144 144c0 21.63-5.29 41.79-13.9 60.11z"
+     id="path32"
      style="fill:#d7e3f4;opacity:0.4" />
 </svg>

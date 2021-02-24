@@ -1,6 +1,6 @@
 ---
 weight: 1
-icon: "features/github.svg"
+icon: "features/stack-match.svg"
 ---
 
 ## Stack match
