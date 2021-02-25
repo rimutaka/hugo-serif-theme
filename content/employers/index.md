@@ -5,6 +5,13 @@ layout: segment
 type: page
 ---
 
-# Find software developers with the right skills and potential
+# Find software developers with the right skills and capabilities
 
-All the data in the directory is based on analysis of developer repositories from their open-source and proprietary projects.  
+#### We put developer skills, coding style and learning rate ahead of their ability to write a sleek resume.
+
+---
+
+Unlike resumes with unreliable self-assessments, StackMuncher directory is based on the actual code written by the developers. 
+Our open-source app analyses every line of their code to extract useful metrics you can search for.
+
+Shortlist the developers you think are a good match and we'll send them a link to your job ad or you can approach them directly.

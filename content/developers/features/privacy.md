@@ -5,6 +5,6 @@ icon: features/privacy.svg
 
 ## Privacy
 
-You can make your details public or remain completely anonymous.
-
 We protect your privacy by not collecting any info you are not comfortable making public.
+
+Personal details such as name, age and gender are not collected. No photos either. Let your skills speak for themselves.

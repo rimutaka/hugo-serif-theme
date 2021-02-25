@@ -2,13 +2,11 @@
 weight: 6
 ---
 
-## How to find the right job
+## About the project
 
-Hiring managers are busy people. Many of them are software developers like yourself. They would rather be coding than looking through another resume. Let's make it easy for them to choose you:
+StackMuncher was started by [@rimutaka](https://stackmuncher.com/rimutaka) after he failed a C# dev interview at Xero. He wanted to quantify how well he actually knows .Net and other technologies.
 
-1. Show off your skills by running your code through StackMuncher
-2. Set your availability
-3. Set your preferences for the type of work and the employer
-4. Respond promptly to interesting offers
-
-If you are actively applying for jobs you can include your StackMuncher metrics in your resume. The hiring manager will appreciate the detailed breakdown of your capabilities.
+* [All of StackMuncher code](https://github.com/stackmuncher), including most of the back-end is open source
+* We are looking for contributors to help us improve the code analysis part and expand the stack
+* We mainly use Rust, VueJS and AWS ([full stack report](https://stackmuncher.com/stackmuncher))
+* Our database is also open source and can be downloaded from AWS S3

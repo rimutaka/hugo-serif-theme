@@ -5,6 +5,6 @@ icon: features/proprietary.svg
 
 ## Proprietary code
 
-Use our 100% local client to process the proprietary code you write without disclosing a single line of it.
+Use our 100% open-source app to analyze the proprietary code you write without disclosing a single line of it.
 
-The client is a single-file executable written in Rust. It only uploads the final report with code metrics.
+The app is a single-file executable written in Rust. It only uploads reports with code metrics.
