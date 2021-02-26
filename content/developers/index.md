@@ -15,6 +15,6 @@ type: page
   1. Show off your skills by running your code through StackMuncher app
   2. Set your availability
   3. Set your preferences for the type of work and the employer
-  4. Respond only to offers of interest
+  4. Respond to any interesting offers of work
 
 StackMuncher can run as a Git hook keeping your profile updated as you write more code and gain new skills.
