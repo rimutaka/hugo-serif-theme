@@ -1,9 +1,7 @@
-baseURL = "//stm-www-7b4g14ydlm.s3-website-us-east-1.amazonaws.com/about/"
+baseURL = "/"
 languageCode = "en-us"
 title = "StackMuncher"
 disableKinds = ["taxonomy", "term"]
-RelativeURLs=true
-CanonifyURLs=true
 
 [deployment]
 
@@ -13,19 +11,22 @@ URL = "s3://stm-www-7b4g14ydlm?region=us-east-1"
 
 
 [menu]
-  # Main Menu
   [[menu.main]]
     name = "Employers"
-    url = "/employers/"
-      weight = 3
+    url = "/about/employers/"
+      weight = 4
 
   [[menu.main]]
       name = "Developers"
-      url = "/developers/"
-      weight = 2
+      url = "/about/developers/"
+      weight = 3
 
-  # Footer Menu
   [[menu.main]]
     name = "About"
+    url = "/about/"
+      weight = 2
+
+  [[menu.main]]
+    name = "Directory"
     url = "/"
       weight = 1
