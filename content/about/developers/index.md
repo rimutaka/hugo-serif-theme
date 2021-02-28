@@ -1,6 +1,6 @@
 ---
 title: 'For Developers'
-intro_image: "/about/images/illustrations/pointing.svg"
+intro_image: "/about/images/illustrations/developers.svg"
 layout: segment
 type: page
 ---

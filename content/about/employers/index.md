@@ -1,6 +1,6 @@
 ---
 title: 'For Employers'
-intro_image: "/about/images/illustrations/pointing.svg"
+intro_image: "/about/images/illustrations/employers.svg"
 layout: segment
 type: page
 ---

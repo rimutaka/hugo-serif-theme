@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-intro_image: "/about/images/illustrations/pointing.svg"
+intro_image: "/about/images/illustrations/home.svg"
 layout: about
 type: page
 ---
